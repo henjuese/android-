@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 连框颜色值 -->
+    <item>
+        <shape>
+            <solid android:color="#dcdcdc" />
+        </shape>
+    </item>
+    <!-- 主体背景颜色值 -->
+    <item
+        android:bottom="1dp"
+        android:left="1dp"
+        android:top="1dp"
+        android:right="1dp">
+        <shape>
+            <solid android:color="#ffffff" />
+            <!-- 内边距 -->
+            <padding
+                android:bottom="0.5dp"
+                android:left="0.5dp"
+                android:right="0.5dp"
+                android:top="0.5dp" /> 
+        </shape>
+    </item>
+    <item>
+        <!--按钮压下后改变颜色 -->
+        <selector>
+	        <item android:drawable="@drawable/clr_normal" android:state_pressed="false" />
+	        <item android:drawable="@drawable/clr_pressed" android:state_pressed="true"/>
+		</selector>
+    </item>
+</layer-list> 
