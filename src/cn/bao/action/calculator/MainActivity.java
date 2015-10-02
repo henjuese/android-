@@ -251,7 +251,7 @@ public class MainActivity extends Activity {
 		}
 	}
 	
-	//扩展预留，比如开方，等等
+	//
 	class OnTake implements OnClickListener{
 
 		@Override
@@ -264,7 +264,7 @@ public class MainActivity extends Activity {
 	
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
-		//屏蔽菜单键：就是那个三横的那个按键
+		//
 		if(keyCode==KeyEvent.KEYCODE_MENU){
 			return true;
 		}
